@@ -11,20 +11,87 @@
 
 body {
     width: 80%;
-    max-width: 670px;
+    max-width: 900px;
     margin: auto;
-    background-color:floralwhite;
-    color: black;
-    font-family:serif
+    background-color:#222222;
+    color: white;
+    font-family:"AppleGothic"
 } 
 
-/* ----------- typography ------------ */
+/*--------- Navigation --------*/
 
-h1, h2, h3 {
-    font-weight: normal;
-    color: crimson;
-    text-align: center
+
+ ul {
+    font-size: 20px;
 }
+        
+ul li {
+      display: inline-block;
+      text-align: center;
+}
+
+li a {
+     color: white;
+     text-decoration: none;
+}
+
+
+nav {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 1em 0;
+    font-size: 20px;
+}
+
+nav ul {
+    text-align: center;
+    width: 300%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 40px;
+    margin-top: -7em;
+    margin-left: -44em
+        
+        
+}
+
+nav ul li{
+    display: inline;
+    margin: 90px
+}
+
+nav a:link{color: white}
+
+nav a:visited {color:white}
+
+nav a:hover {border-bottom: none;
+    color: #17A6AD}
+
+
+
+/*----- intro -----*/
+
+.intro {
+    text-align:left;
+}
+
+.img1 {
+    margin-right: -40em;
+    margin-top: -12em
+}
+
+.intro2 {
+    text-align: center;
+    margin-left: -10em;
+    margin-top: -20em
+    
+}
+
+
+
+/* ----------- typography ------------ */
 
 p, li, blockquote {
     margin-bottom: 1.53em;
@@ -32,7 +99,7 @@ p, li, blockquote {
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 3.998em;
     margin-top: 1em;
     margin-bottom: 1em
@@ -85,38 +152,6 @@ a:hover {
     border-bottom: 1px dotted;
 }
 
-/*--------- Navigation --------*/
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    background-color: crimson;
-    padding: 1em 0;
-    font-size: 0.75em
-}
-
-nav ul {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px
-        
-}
-
-nav ul li{
-    display: inline;
-    margin: 20px
-}
-
-nav a:link{color: #fff}
-
-nav a:visited {color: #fff}
-
-nav a:hover {border-bottom: none;
-    color: #000}
-
 /* ---------- Block ------------ */
 
 blockquote {
@@ -139,37 +174,6 @@ img {
     max-width: 100%
 }
 
-/* ---------- Table------------*/
-
-table {
-    margin: auto;
-    display: table;
-    border-collapse: collapse;
-    border-spacing: 2px;
-    margin-bottom: 2em;
-}
-
-caption {
-    margin-bottom: 1.5em;
-    text-transform: uppercase;
-}
-
-th {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: normal;
-    text-align: left;
-    background: #c06;
-}
-
-th, td {
-    padding: .8em;
-}
-
-table, td {
-    background: #BFBEBB;
-    border: 2px solid #fff;
-}
 
 /* ------------- footer -------------*/
 
