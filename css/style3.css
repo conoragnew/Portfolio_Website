@@ -10,7 +10,7 @@
 /* ------ Main Styling ------*/
 
 body {
-    width: 80%;
+    width: 100%;
     max-width: 900px;
     margin: auto;
     background-color:#222222;
@@ -121,9 +121,18 @@ nav a:hover {border-bottom: none;
 /*------ Work ------*/
 
 .work {
+    display: inline-grid;
     padding-top: 17em;
     font-size: 15px
 }
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 600px 600px
+}
+
+
 
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
@@ -146,7 +155,7 @@ nav a:hover {border-bottom: none;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 92%;
+  width: 90.5%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -184,7 +193,7 @@ nav a:hover {border-bottom: none;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 92%;
+  width: 90.5%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -221,7 +230,7 @@ nav a:hover {border-bottom: none;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 92%;
+  width: 90.5%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -258,7 +267,7 @@ nav a:hover {border-bottom: none;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 92%;
+  width: 90.5%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -336,8 +345,14 @@ img {
 
 /* ------------- footer -------------*/
 
+.contact {
+    padding-left: 22em;
+    padding-top: 3em
+}
+
+
 footer {
-    text-align: center;
+    text-align: right;
     font-size: 0.75em;
     line-height: 1.5em;
     padding: 2em 0 4em
@@ -366,6 +381,7 @@ footer hr {
 }
 
 .connections img {
+    color: #17A6AD;
     opacity: 0.5;
     border: none;
 }
@@ -378,10 +394,10 @@ footer hr {
 } 
 
 hr {
-    margin: 1em 0;
+    margin-top: 1em 0;
     height: 1px;
-    background-color: #c06;
-    color: #c06;
+    background-color: #17A6AD;
+    color: #17A6AD;
     border: 0 none
 }
 
